@@ -1,4 +1,4 @@
-import Link from 'next/link'; // Import Link from Next.js
+import Link from 'next/link'; 
 
 async function getDetails(id) {
   const res = await fetch(`https://fakestoreapi.com/products/${id}`);
